@@ -131,3 +131,23 @@ por Classe --> getElementByClassName()
 
 Por Selector --> querySelector(), querySelectorAll()
 
+
+
+
+Parte 2 - Eventos do DOM
+
+O javascript pode interagir de diversas formas
+ele pode controlar varios eventos do mouse
+
+mouseenter
+mousemove
+mouseout
+mousedow
+mouseup
+click
+
+
+existem diversos outros eventos, não da pra decorar
+apenas revise quando for necessário
+
+digitando "event reference" 
