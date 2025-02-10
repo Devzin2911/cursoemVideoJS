@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Nacionalidade</title>
+    <style>
+        #res {
+            padding-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistemas de Verificação</h1>
+    Digite o seu país de origem: <input type="text" name="txtvel" id="txtP">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+    </div>
+    
+    <script>
+        function calcular() {
+            txtP = document.getElementById('txtP')
+            txtR = document.querySelector('div#res')
+            var origem = txtP.value
+            // Condição Composta
+            if(origem === 'Brasil') {
+                txtR.innerHTML = `Seu país de origem é o <strong>${origem}</strong>, então você é <strong>Brasileiro</strong>`
+            } else {
+                txtR.innerHTML = `Seu país de origem é o <strong>${origem}</strong>, então você é <strong>Estrangeiro</strong>`
+            }   
+
+            // Condição Simples
+            if(origem === '') {
+                txtR.innerHTML = `Por favor, digite o seu país para podermos validar a sua nacionalidade!!`
+            }
+        }
+    </script>
+</body>
+</html>
