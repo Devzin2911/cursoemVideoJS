@@ -1,7 +1,7 @@
 # CursoEmVideo JS
 
-Estou aprendendo a programar em Javascript e o que eu achar que devo anotar
-colocarei dentro desse documento para melhor gravação dos estudos
+Estou retornando a programar em Javascript e tenho criado as anotações para
+Me lembrar, colocarei dentro desse documento para melhor gravação dos estudos
 
 Livros:
 
