@@ -1,0 +1,42 @@
+body {
+    background: rgb(23, 98, 212);
+}
+
+
+.topo {
+    color: bisque;
+    text-align: center;
+    font: normal 23pt Arial;
+}
+
+
+.container {
+    background: white;
+    margin: auto;
+    display: block;
+    width: 584px;
+    height: 345px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#conteudo01 {
+    padding: 10px;
+    font: normal 18pt Arial;
+}
+
+#conteudo02 {
+    padding: 10px;
+    font: normal 18pt Arial;
+}
+
+#contar {
+    font: normal 15pt Arial;
+}
+
+
+footer p{
+    color: bisque;
+    text-align: center;
+    font-style: italic;
+}
