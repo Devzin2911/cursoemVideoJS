@@ -7,10 +7,12 @@ function gerarTabuada() {
         window.alert('[ERRO] Por favor, digite um número')
     } else {
         var i = Number(num.value)
-        
-        for (let c = i; c <= 10; c++) {
+        tab.innerHTML = ''
+        for (let c = 1; c <= 10; c++) {
             let item = document.createElement('option')
-            item.appendChild()
+            item.text = `${i} x ${c} = ${i * c}`
+            item.value = `tab${c}`
+            tab.appendChild(item)
        }
     }
 }

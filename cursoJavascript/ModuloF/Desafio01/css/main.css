@@ -1,0 +1,45 @@
+body {
+    background: rgb(55, 127, 234);
+}
+
+
+.topo {
+    font: normal 20pt Arial;
+    text-align: center;
+}
+
+.container{
+    background: white;
+    display: block;
+    margin: auto;
+    width: 854px;
+    border-radius: 10px;
+}
+
+
+#conteudo01 {
+    font: normal 18pt Arial;
+    padding: 20px;
+}
+
+
+#conteudo02 {
+    text-align: center;
+    font: normal 18pt Arial;
+    padding: 20px;
+}
+
+
+.rodape {
+    text-align: center;
+    font-style: italic;
+}
+
+
+#foto{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
